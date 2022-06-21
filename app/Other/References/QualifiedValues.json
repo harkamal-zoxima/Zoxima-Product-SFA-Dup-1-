@@ -16,6 +16,13 @@
       }
     },
     {
+      "Kind": "default.cds_cr431_area_forms",
+      "Namespace": "Areas (Forms)",
+      "Values": {
+        "Information": "a5c4fa1d-61f3-457a-a770-c4f568b15ef9"
+      }
+    },
+    {
       "Kind": "default.cds_cr431_attendence_forms",
       "Namespace": "Attendences (Forms)",
       "Values": {
@@ -52,6 +59,27 @@
         "Recent Cases and Entitlements": "f3b707fb-3b5f-45f9-9c6b-5e573bb5d19e",
         "Social Profiles": "7bb87dfd-ec3e-4ed9-8e3e-5725d3067295",
         "Update Contact": "26843818-6508-4afe-9342-5fae2ebf15ca"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_event_forms",
+      "Namespace": "Events (Forms)",
+      "Values": {
+        "Information": "cd6868f0-7f8f-49bd-bd4f-fd5244f99c43"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_expenseheader_forms",
+      "Namespace": "Expense Header (Forms)",
+      "Values": {
+        "Information": "d54aff83-3c61-43a9-826e-a9b184eb3a21"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_expenseline_forms",
+      "Namespace": "Expense Line (Forms)",
+      "Values": {
+        "Information": "ac448f22-720c-43b0-9768-3db01d07dad6"
       }
     },
     {
@@ -98,7 +126,7 @@
     },
     {
       "Kind": "default.cds_cr431_sales_order_forms",
-      "Namespace": "Sales Orders (Forms)",
+      "Namespace": "Sales Orderss (Forms)",
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
       }
@@ -119,6 +147,13 @@
       "Namespace": "Visits_1 (Forms)",
       "Values": {
         "Information": "572c74d3-bedf-4c59-bde0-fffb425ed89e"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_sales_order_forms",
+      "Namespace": "Sales Orders (Forms)",
+      "Values": {
+        "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
       }
     }
   ]
