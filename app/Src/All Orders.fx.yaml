@@ -206,18 +206,7 @@
         "'Completed html' As htmlViewer":
             Color: =RGBA(242, 242, 242, 1)
             Height: =52
-            HtmlText: |-
-                ="<div style='border-radius:10px 10px 10px 10px; background-color:" & If(
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.Open,
-                    "#F28DB4",
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.Accepted,
-                    "#95D4E0",
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.Shipped,
-                    "#1A9FE4",
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.'Partially Shipped',
-                    "#EBCD43"
-                
-                ) & "; opacity:0.3; border:2px solid #D3D4D6; width:150px; height:40px'></div>"
+            HtmlText: =
             OnSelect: =Select(Parent)
             Width: =172
             X: =434
@@ -229,19 +218,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: |-
-                =If(
-                    ThisItem. = 'Order Status (Sales Orders)'.'254460000'
-                    RGBA(219, 118, 157,1),
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.Accepted,
-                   RGBA(107,179,194,1),
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.Shipped,
-                    RGBA(26,159,228,1),
-                    ThisItem.'Order Status' = 'Order Status (Sales Order)'.'Partially Shipped',
-                    RGBA(209,180,50,1)
-                
-                )'Order Status (Sales Order)'.Open,
-                    RGBA(219, 118, 157,1),
+            Color: =
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -249,7 +226,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =27
             Size: =13
-            Text: =ThisItem.'Order Status'
+            Text: =
             Width: =160
             X: =434
             Y: =23
@@ -258,11 +235,11 @@
         Button6 As button:
             Align: =Align.Left
             BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(53, 166, 57, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(0, 0, 0, 0)
             FocusedBorderColor: =ColorFade(Self.Fill, 75%)
             FocusedBorderThickness: =
             Font: =Font.Lato
@@ -310,7 +287,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(53, 166, 57, 1)
+                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -329,7 +306,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 0.83)
+                Color: =RGBA(255, 191, 0, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -366,7 +343,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(53, 166, 57, 1)
+                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -385,7 +362,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 0.83)
+                Color: =RGBA(255, 191, 0, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -422,7 +399,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(53, 166, 57, 1)
+                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -441,7 +418,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 0.83)
+                Color: =RGBA(255, 191, 0, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -459,7 +436,7 @@
         Color: =RGBA(103, 204, 107, 1)
         Height: =82
         HtmlText: |-
-            ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:70px'></div>"
+            ="<div style='border-radius:0; background-color:#5B6A85; width:640px; height:70px'></div>"
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
@@ -668,7 +645,7 @@
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(73, 130, 5, 1)
+        Color: =RGBA(31, 31, 31, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -737,7 +714,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(73, 130, 5, 1)
+            Color: =RGBA(28, 28, 28, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -752,7 +729,7 @@
 
         Icon5 As icon.FilterFlat:
             BorderColor: =RGBA(109, 109, 109, 1)
-            Color: =RGBA(255, 200, 61, 1)
+            Color: =RGBA(22, 22, 22, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
@@ -773,7 +750,7 @@
     filter As gallery.galleryHorizontal:
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =64
-        Items: =['Order Status (Sales Order)'.Open, 'Order Status (Sales Order)'.Accepted, 'Order Status (Sales Order)'.'Partially Shipped', 'Order Status (Sales Order)'.Shipped]
+        Items: =['Order Status (Sales Orders)'.Open, 'Order Status (Sales Orders)'.Accepted, 'Order Status (Sales Orders)'.'Partially Shipped', 'Order Status (Sales Orders)'.Shipped]
         OnSelect: =
         ShowScrollbar: =false
         TemplateSize: =143
@@ -784,11 +761,14 @@
 
         Button4_4 As button:
             BorderColor: =RGBA(53, 166, 57, 1)
-            Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+            BorderThickness: =0
+            Color: |-
+                =If(ThisItem.IsSelected, ColorValue("#414C60"),RGBA(255, 255, 255, 1))
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =If(ThisItem.IsSelected, RGBA(53, 166, 57, 1), White)
+            Fill: |-
+                =If(ThisItem.IsSelected, White,ColorValue("#414C60") )
             FocusedBorderColor: =
             FocusedBorderThickness: =2
             Font: =Font.Lato
@@ -796,7 +776,7 @@
             Height: =45
             HoverBorderColor: =RGBA(53, 166, 57, 1)
             HoverColor: =RGBA(31, 31, 31, 1)
-            HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+            HoverFill: =
             OnSelect: =Select(Parent)
             PressedBorderColor: =
             PressedColor: =RGBA(31, 31, 31, 1)
@@ -828,11 +808,14 @@
 
         Button4_7 As button:
             BorderColor: =RGBA(53, 166, 57, 1)
-            Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+            BorderThickness: =0
+            Color: |-
+                =If(ThisItem.IsSelected, ColorValue("#414C60"),RGBA(255, 255, 255, 1))
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =If(ThisItem.IsSelected, RGBA(53, 166, 57, 1), White)
+            Fill: |-
+                =If(ThisItem.IsSelected, White,ColorValue("#414C60") )
             FocusedBorderColor: =
             FocusedBorderThickness: =2
             Font: =Font.Lato
@@ -840,7 +823,7 @@
             Height: =43
             HoverBorderColor: =RGBA(53, 166, 57, 1)
             HoverColor: =RGBA(31, 31, 31, 1)
-            HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+            HoverFill: =
             OnSelect: =Select(Parent)
             PressedBorderColor: =
             PressedColor: =RGBA(31, 31, 31, 1)
