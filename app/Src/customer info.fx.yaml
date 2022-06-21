@@ -2664,11 +2664,11 @@
 
                 Gallery3 As gallery.galleryVertical:
                     BorderColor: =RGBA(109, 109, 109, 1)
-                    Height: =615
+                    Height: =614
                     Items: =Filter('Sales Orders','Order Status'=customerinfo_2.Selected.Value && 'Order From'.Account = data2.Account)
                     Layout: =Layout.Vertical
                     TemplateSize: =290
-                    Y: =65
+                    Y: =66
                     ZIndex: =2
 
                     HtmlText1_108 As htmlViewer:
@@ -3280,7 +3280,7 @@
                         Height: =31
                         OnSelect: =Select(Parent)
                         Size: =13
-                        Text: =ThisItem.'Sales Order Number'.'Order ID'
+                        Text: =ThisItem.'Sales Order Number'.cr431_name
                         Width: =90
                         X: =255
                         Y: =60

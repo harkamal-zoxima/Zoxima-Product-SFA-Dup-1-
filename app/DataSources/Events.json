@@ -27,7 +27,6 @@
       "cr431_EventOwner": "Event Owner",
       "cr431_eventvenue": "Event Venue",
       "cr431_name": "Name",
-      "cr431_selectmeettype": "Select meet type:",
       "createdby": "Created By",
       "createdon": "Created On",
       "createdonbehalfby": "Created By (Delegate)",
@@ -35,9 +34,8 @@
       "modifiedby": "Modified By",
       "modifiedon": "Modified On",
       "modifiedonbehalfby": "Modified By (Delegate)",
+      "new_actualexpense": "Actual Expense:",
       "new_budget": "Budget:",
-      "new_expectedparticipation": "Expected Participation:",
-      "new_targetaudience": "Target Audience:",
       "overriddencreatedon": "Record Created On",
       "owningbusinessunit": "Owning Business Unit",
       "owningteam": "Owning Team",
@@ -102,28 +100,6 @@
     },
     "OptionSetTypeKey": "StatusType",
     "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "Events",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Met/ Call With",
-    "Name": "cr431_metcallwith1",
-    "OptionSetInfoNameMapping": {
-      "254460000": "Owner",
-      "254460001": "DMI",
-      "254460002": "Architect/ID",
-      "254460003": "Others"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": true,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "cr431_selectmeettype",
-        "OptionSetReferenceEntityName": "Events"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "cr431_selectmeettype",
     "RelatedEntityName": "Events",
     "Type": "OptionSetInfo"
   }

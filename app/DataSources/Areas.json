@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr431_area",
-    "MaxGetRowsCount": 500,
     "Name": "Areas",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
@@ -33,7 +32,6 @@
       "cr431_cr431_area_cr431_visit_Town": "Visits (cr431_cr431_area_cr431_visit_Town)",
       "cr431_cr431_event_Area_cr431_area": "Events",
       "cr431_cr431_geotownareamapping_cr431_Terr": "Geo Town Area Mappings",
-      "cr431_cr431_sites_Area_cr431_area": "Sites",
       "cr431_cr431_teamtownmapping_cr431_TOWNCod": "Team Town Mappings",
       "cr431_influencer_Territory_cr431_area": "Influencer (cr431_influencer_Territory_cr431_area)",
       "cr431_influencer_Town_cr431_area": "Influencer (cr431_influencer_Town_cr431_area)",

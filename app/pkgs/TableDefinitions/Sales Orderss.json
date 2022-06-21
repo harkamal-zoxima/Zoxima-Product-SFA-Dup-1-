@@ -1,6 +1,6 @@
 {
   "DatasetName": "default.cds",
-  "EntityName": "Sales Orders",
+  "EntityName": "Sales Orderss",
   "InstanceUrl": "https://org2ed0cdbd.crm8.dynamics.com/",
   "state": "Configured",
   "TableDefinition": {
