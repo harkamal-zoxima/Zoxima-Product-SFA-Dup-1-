@@ -139,6 +139,8 @@
       "cr431_cr431_sales_order_ShipToParty_account": "Sales Orderss (cr431_cr431_sales_order_ShipToParty_account)",
       "cr431_cr431_salesorder_OrderFrom_account": "Sales Order (cr431_cr431_salesorder_OrderFrom_account)",
       "cr431_cr431_salesorder_OrderTo_account": "Sales Order (cr431_cr431_salesorder_OrderTo_account)",
+      "cr431_cr431_sites_Dealer_account": "Sites (cr431_cr431_sites_Dealer_account)",
+      "cr431_cr431_sites_Retailer_account": "Sites (cr431_cr431_sites_Retailer_account)",
       "cr431_firstname": "First Name",
       "cr431_geographicaltown": "Geographical Town",
       "cr431_geolocation": "Geo Location",
