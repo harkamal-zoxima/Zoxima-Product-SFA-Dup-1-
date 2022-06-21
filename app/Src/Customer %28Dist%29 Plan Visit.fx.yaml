@@ -547,7 +547,7 @@
             HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Cancel
-            OnSelect: =
+            OnSelect: =Set(VarDialogOpen ,false)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
             PressedFill: =RGBA(0, 0, 0, 0)
@@ -562,7 +562,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(0, 0, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
