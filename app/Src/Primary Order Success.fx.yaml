@@ -162,7 +162,7 @@
         HoverColor: =RGBA(31, 31, 31, 1)
         HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
         OnSelect: |-
-            =Navigate('Order Info', ScreenTransition.Fade, {order: LookUp('Sales Orders', Dealer = First(CreateOrderRecord).Dealer)})
+            =Navigate('Order Info', ScreenTransition.Fade, {order: LookUp('Sales Orders', cr431_dealer = First(CreateOrderRecord).cr431_dealer)})
         PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
         PressedColor: =RGBA(31, 31, 31, 1)
         PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
