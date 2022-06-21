@@ -48,28 +48,6 @@
             Y: =12
             ZIndex: =2
 
-        "'Completed html_17' As htmlViewer":
-            Color: =RGBA(242, 242, 242, 1)
-            Font: =Font.Lato
-            Height: =52
-            HtmlText: |-
-                ="<div style='border-radius:10px 10px 10px 10px; background-color:" & If(
-                    ThisItem.'Account Type' = 'Account Type (Accounts)'.Distributer,
-                    "#F28DB4",
-                    ThisItem.'Account Type' = 'Account Type (Accounts)'.Retailer,
-                    "#95D4E0",
-                    ThisItem.'Account Type' = 'Account Type (Accounts)'.Wholesaler,
-                    "#1A9FE4",
-                   ThisItem.'Account Type' = 'Account Type (Accounts)'.Constructor,
-                    "#EBCD43"
-                
-                ) & "; opacity:0.3; border:2px solid #D3D4D6; width:150px; height:40px'></div>"
-            OnSelect: =Select(Parent)
-            Width: =172
-            X: =430
-            Y: =8
-            ZIndex: =9
-
         Label2_111 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -95,8 +73,8 @@
             Height: =27
             Size: =13
             Text: =ThisItem.'Account Type'
-            Width: =160
-            X: =430
+            Width: =124
+            X: =458
             Y: =19
             ZIndex: =10
 
@@ -136,7 +114,7 @@
             PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Width: =25
-            X: =405
+            X: =433
             Y: =21
             ZIndex: =12
 
@@ -262,7 +240,7 @@
             Button2_3 As button:
                 Align: =Align.Left
                 BorderColor: =RGBA(0, 0, 0, 0)
-                Color: =RGBA(31, 31, 31, 1)
+                Color: =RGBA(0, 0, 0, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
@@ -299,7 +277,6 @@
 
             Icon13_1 As icon.Add:
                 BorderColor: =RGBA(109, 109, 109, 1)
-                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(220, 220, 220, 1)
                 DisabledFill: =RGBA(0, 0, 0, 0)
