@@ -112,7 +112,7 @@
       },
       "OptionSetReferenceItem1": {
         "OptionSetReferenceColumnName": "cr431_ordertype",
-        "OptionSetReferenceEntityName": "Sales Orders"
+        "OptionSetReferenceEntityName": "Sales Orderss"
       }
     },
     "OptionSetTypeKey": "PicklistType",
