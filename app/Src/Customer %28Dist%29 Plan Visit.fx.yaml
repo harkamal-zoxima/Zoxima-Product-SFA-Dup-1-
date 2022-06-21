@@ -15,11 +15,23 @@
         Y: =201
         ZIndex: =1
 
+        HtmlText1_95 As htmlViewer:
+            Color: =RGBA(242, 242, 242, 1)
+            Height: =187
+            HtmlText: |-
+                ="<div style='border-radius:15px 15px 15px 15px; background-color:#586782; border:2px solid #D3D4D6; width:595px; height:175px'></div>"
+            OnSelect: |-
+                =Navigate('customer info');
+                Set(data2,ThisItem)
+            Width: =608
+            X: =15
+            ZIndex: =1
+
         Label1_9 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(53, 166, 57, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -34,7 +46,7 @@
             Width: =364
             X: =36
             Y: =12
-            ZIndex: =1
+            ZIndex: =2
 
         "'Completed html_17' As htmlViewer":
             Color: =RGBA(242, 242, 242, 1)
@@ -56,7 +68,7 @@
             Width: =172
             X: =430
             Y: =8
-            ZIndex: =8
+            ZIndex: =9
 
         Label2_111 As label:
             Align: =Align.Center
@@ -86,13 +98,13 @@
             Width: =160
             X: =430
             Y: =19
-            ZIndex: =9
+            ZIndex: =10
 
         Label2_112 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 0.83)
+            Color: =RGBA(237, 237, 237, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -105,7 +117,7 @@
             Width: =382
             X: =36
             Y: =50
-            ZIndex: =10
+            ZIndex: =11
 
         Icon11_1 As icon.Waypoint:
             BorderColor: =RGBA(109, 109, 109, 1)
@@ -126,19 +138,7 @@
             Width: =25
             X: =405
             Y: =21
-            ZIndex: =11
-
-        HtmlText1_95 As htmlViewer:
-            Color: =RGBA(242, 242, 242, 1)
-            Height: =187
-            HtmlText: |-
-                ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:595px; height:175px'></div>"
-            OnSelect: |-
-                =Navigate('customer info');
-                Set(data2,ThisItem)
-            Width: =608
-            X: =15
-            ZIndex: =14
+            ZIndex: =12
 
         Group12_1 As group:
             Height: =5
@@ -156,14 +156,14 @@
                 Width: =164
                 X: =252
                 Y: =103
-                ZIndex: =4
+                ZIndex: =5
 
             Label2_114 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(53, 166, 57, 1)
+                Color: =RGBA(237, 237, 237, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -175,14 +175,14 @@
                 Width: =116
                 X: =273
                 Y: =110
-                ZIndex: =5
+                ZIndex: =6
 
             Label2_116 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 0.83)
+                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -194,7 +194,7 @@
                 Width: =127
                 X: =273
                 Y: =138
-                ZIndex: =7
+                ZIndex: =8
 
         Group13_1 As group:
             Height: =5
@@ -212,14 +212,14 @@
                 Width: =164
                 X: =74
                 Y: =102
-                ZIndex: =2
+                ZIndex: =3
 
             Label2_113 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(53, 166, 57, 1)
+                Color: =RGBA(237, 237, 237, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -231,14 +231,14 @@
                 Width: =116
                 X: =85
                 Y: =110
-                ZIndex: =3
+                ZIndex: =4
 
             Label2_115 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 0.83)
+                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -250,7 +250,7 @@
                 Width: =116
                 X: =85
                 Y: =133
-                ZIndex: =6
+                ZIndex: =7
 
         Group11_1 As group:
             Height: =5
@@ -295,7 +295,7 @@
                 Width: =106
                 X: =466
                 Y: =114
-                ZIndex: =12
+                ZIndex: =13
 
             Icon13_1 As icon.Add:
                 BorderColor: =RGBA(109, 109, 109, 1)
@@ -327,7 +327,7 @@
                 Width: =20
                 X: =486
                 Y: =122
-                ZIndex: =13
+                ZIndex: =14
 
     HtmlText1_94 As htmlViewer:
         Color: =RGBA(103, 204, 107, 1)
