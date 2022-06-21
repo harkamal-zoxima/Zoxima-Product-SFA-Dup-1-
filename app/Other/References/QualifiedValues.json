@@ -120,6 +120,20 @@
       "Values": {
         "Information": "572c74d3-bedf-4c59-bde0-fffb425ed89e"
       }
+    },
+    {
+      "Kind": "default.cds_cr431_expenseheader_forms",
+      "Namespace": "Expense Header (Forms)",
+      "Values": {
+        "Information": "d54aff83-3c61-43a9-826e-a9b184eb3a21"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_expenseline_forms",
+      "Namespace": "Expense Line (Forms)",
+      "Values": {
+        "Information": "ac448f22-720c-43b0-9768-3db01d07dad6"
+      }
     }
   ]
 }

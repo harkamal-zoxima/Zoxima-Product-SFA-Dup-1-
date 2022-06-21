@@ -14,6 +14,10 @@
             {
                 title: "Secondary Orders",
                 screen: 'Secondary Orders'
+            },
+            {
+                title:"Expense",
+                screen:'Expenses'
             }
         ]
     Width: =If(varOpen, 320, 70)
