@@ -3099,47 +3099,6 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 242,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "All Orders",
-                "type": "'All Orders'.Orders"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "OptionSetValue(Order Status (Sales Orders))",
-              "OptionSetValue(Order Status (Sales Order))"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'All Orders'.Orders.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'All Orders'.Orders.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
                   "charOffset": 310,
                   "snippet": {
                     "text": "-"
@@ -3220,47 +3179,6 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 523,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "All Orders",
-                "type": "'All Orders'.Orders"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "OptionSetValue(Order Status (Sales Orders))",
-              "OptionSetValue(Order Status (Sales Order))"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'All Orders'.Orders.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'All Orders'.Orders.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
                   "charOffset": 590,
                   "snippet": {
                     "text": "-"
@@ -3325,6 +3243,47 @@
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 803,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "All Orders",
+                "type": "'All Orders'.Orders"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "OptionSetValue(Order Status (Sales Order))",
+              "OptionSetValue(Order Status (Sales Orders))"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 6
         },
         {
           "locations": [
