@@ -631,7 +631,7 @@
         FontWeight: =FontWeight.Semibold
         Height: =66
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(31, 31, 31, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
         OnSelect: =Navigate('Customer (Dist)', ScreenTransition.Fade)
         PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
@@ -661,7 +661,7 @@
         FontWeight: =FontWeight.Semibold
         Height: =66
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(31, 31, 31, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
         OnSelect: =Navigate('Customer (Dist) Plan Visit', ScreenTransition.Fade)
         PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)

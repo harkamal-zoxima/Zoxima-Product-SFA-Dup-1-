@@ -2,10 +2,6 @@
   "DatasetName": "default.cds",
   "EntityName": "Events",
   "InstanceUrl": "https://org2ed0cdbd.crm8.dynamics.com/",
-  "LocalReferenceDSJson": {
-    "entitySetName": "cr431_events",
-    "logicalName": "cr431_event"
-  },
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://org2ed0cdbd.crm8.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('cr431_event')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",
