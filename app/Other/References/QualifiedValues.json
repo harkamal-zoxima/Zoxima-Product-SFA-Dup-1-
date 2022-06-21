@@ -120,6 +120,13 @@
       "Values": {
         "Information": "572c74d3-bedf-4c59-bde0-fffb425ed89e"
       }
+    },
+    {
+      "Kind": "default.cds_cr431_sales_order_forms",
+      "Namespace": "Sales Orderss (Forms)",
+      "Values": {
+        "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
+      }
     }
   ]
 }
