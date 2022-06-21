@@ -53,18 +53,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: |-
-                =If(
-                   ThisItem.'Account Type' = 'Account Type (Accounts)'.Distributer,
-                    RGBA(219, 118, 157,1),
-                  ThisItem.'Account Type' = 'Account Type (Accounts)'.Retailer,
-                   RGBA(107,179,194,1),
-                    ThisItem.'Account Type' = 'Account Type (Accounts)'.Wholesaler,
-                    RGBA(26,159,228,1),
-                    ThisItem.'Account Type' = 'Account Type (Accounts)'.Constructor,
-                    RGBA(209,180,50,1)
-                
-                )
+            Color: =RGBA(237, 237, 237, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
