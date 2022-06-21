@@ -120,6 +120,20 @@
       "Values": {
         "Information": "572c74d3-bedf-4c59-bde0-fffb425ed89e"
       }
+    },
+    {
+      "Kind": "default.cds_cr431_event_forms",
+      "Namespace": "Events (Forms)",
+      "Values": {
+        "Information": "cd6868f0-7f8f-49bd-bd4f-fd5244f99c43"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_area_forms",
+      "Namespace": "Areas (Forms)",
+      "Values": {
+        "Information": "a5c4fa1d-61f3-457a-a770-c4f568b15ef9"
+      }
     }
   ]
 }
