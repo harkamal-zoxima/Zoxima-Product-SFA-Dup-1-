@@ -543,7 +543,10 @@
                         !IsBlank(
                             LookUp(
                                 Visits_1,
-                                Customer.Account = First(SingleVisit).Customer && IsToday('Visit Date')
+                                Customer.Account = First(SingleVisit).Customer && IsToday('Visit Date') && 'Created By'.'Primary Email' = LookUp(
+                                    Users,
+                                    'Primary Email' = User().Email
+                                ).'Primary Email'
                             )
                         ),
                         Notify(
@@ -551,7 +554,11 @@
                             NotificationType.Error,
                             2000
                         );
-                        Set(VarDialogOpen, false);,
+                        Set(
+                            VarDialogOpen,
+                            false
+                        );
+                        ,
                         Patch(
                             Visits_1,
                             Defaults(Visits_1),

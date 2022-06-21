@@ -5170,7 +5170,7 @@
                 },
                 "region": {
                   "charLength": 9,
-                  "charOffset": 161,
+                  "charOffset": 155,
                   "snippet": {
                     "text": ".Customer"
                   }
@@ -5210,7 +5210,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 141,
+                  "charOffset": 135,
                   "snippet": {
                     "text": "="
                   }
@@ -5250,7 +5250,47 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 171,
+                  "charOffset": 165,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Customer (Dist)",
+                "type": "'Customer (Dist)'.Button2_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist)'.Button2_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist)'.Button2_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 190,
                   "snippet": {
                     "text": "&&"
                   }
@@ -5290,7 +5330,7 @@
                 },
                 "region": {
                   "charLength": 9,
-                  "charOffset": 647,
+                  "charOffset": 822,
                   "snippet": {
                     "text": ".Customer"
                   }
@@ -5330,7 +5370,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 627,
+                  "charOffset": 802,
                   "snippet": {
                     "text": "="
                   }
