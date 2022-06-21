@@ -1,5 +1,5 @@
 "'End day' As screen":
-    Fill: =RGBA(31, 31, 31, 1)
+    Fill: =RGBA(88, 103, 130, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
