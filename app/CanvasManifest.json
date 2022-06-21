@@ -99,5 +99,7 @@
     "PublishTarget": "player",
     "UserLocale": "en-US"
   },
-  "ScreenOrder": []
+  "ScreenOrder": [
+    "Screen1"
+  ]
 }
